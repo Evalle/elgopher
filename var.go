@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var x string
+	var x, y string
 	x = "first"
-	fmt.Println(x)
-	x = "second"
-	fmt.Println(x)
+	y = "second"
+	fmt.Println(x == y)
 }
